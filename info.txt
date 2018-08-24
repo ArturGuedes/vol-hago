@@ -1,0 +1,14 @@
+Dados Georeferenciados voluntariado
+
+NUDEC'S
+http://dados-geoniteroi.opendata.arcgis.com/datasets/14ff3c93ae494d45873018cbf520010c_90
+
+No diretório Defesa Civil, encontra se a base de dados em dois formatos (csv e xlsx) e instruçoes sobre curso de formação.
+
+No diretório PARNIT, encontra se as bases de dados referente ao cadastro de voluntariados do meio ambiente 
+nos formatos csv e xlsx
+
+No diretório MATERIAL_APOIO encontra-se material de apoio sobre o tema voluntariado
+
+
+
