@@ -39,7 +39,7 @@
             display: block;
             top: 25px;
             position: absolute;
-            background-image: url(assets/logo-icon.png);
+            background-image: url(assets/imgs/logo-icon.png);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
