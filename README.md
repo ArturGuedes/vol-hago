@@ -1,51 +1,56 @@
-## Este é o repositório do HackNit referente ao tema *Voluntariado*.
+##Hago
 
-O arquivo info.txt contém informações acerca de como acessar os dados que devem ser utilizados na construção do projeto proposto.
+Hago significa Humano em Ação, é um acrônimo das palavras Homa e Ago, provenientes do Esperanto. E identifica aqueles humanos que nunca desistem de fazer deste mundo um lugar melhor!
 
-### Instruções
+Super Hago é aquele que se destaca, é o Hago herói, que além de melhorar a si mesmo, melhora outros Hagos e o mundo por onde passa. Não basta ser Hago, temos que ser Super Hago!
 
-*É recomendada a leitura dos capítulos 6 e 7 do [edital](https://github.com/seplagniteroi/hacknit/raw/master/EditaldeParticipantes-HackNIT_ERRATA.pdf), para garantir a conformidade do projeto com as regras do evento.*
+A ideia da nossa plataforma veio da necessidade de valorizar o voluntário, de  forma a agregar valor a ele e poder criar um vínculo do mesmo com o trabalho voluntário.
 
-É necessário possuir o [Git](https://git-scm.com/) instalado para utilizar os repositórios hospedados no GitHub. Um guia de introdução ao Git pode ser acessado em https://guides.github.com/introduction/git-handbook/.
+A Hago age não só como integrador entre o voluntário e as ações que precisam de voluntários, mas também como um hub de beneficios para os voluntários.
 
-### Copiando o projeto
+A ideia é que exista uma gamificação, onde os usuários terão pontos que serão conquistados ao executar uma ação e ao término da mesma, ele terá de classificar 3 outros colegas para que as notas que ele recebeu sejam contabilizadas. Com isso podemos ter uma valorização justa do voluntário que se destaca.
 
-Um membro da equipe deverá fazer o fork do repositório. Isso pode ser feito clicando no botão **Fork** na parte superior da página:
+No clube de benefícios, podemos pensar em propostas como descontos em marcas parceiras, cinemas, restaurantes e etc... Mas também precisamos evoluir com esse voluntário e podemos fazer isso através de cursos online e presenciais promovidos de forma também voluntária por empresas e profissionais parceiros, entregando conteúdo e certificação aos participantes.
 
-![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/fork.png)
+Nós queremos que o trabalho voluntário seja não só bom para a alma, mas também para a vida.
 
-Esse membro deverá então fornecer as permissões necessárias aos demais membros da equipe. A criação de um time no GitHub permite conceder as permissões rapidamente.
+Queremos que os voluntários sejam mais do que apenas voluntários, sejam super-hagos!
 
-Após o fork ser realizado os membros da equipe podem baixar cópias locais do projeto, utilizando o comando git clone. O endereço do repositório pode ser acessado clicando no botão **Clone or download** nos controles superiores:
+Ambiente:
+A aplicação foi toda desenvolvida para web. Sendo suportadas em ambientes linux e windows.
 
-![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/clone.png)
+Linguagens e frameworks e bibliotecas:
+Utilizamos PHP, HTML5 + CSS3, JQuery e Javascript nativo para a construção das páginas e consultas ao banco de dados SQL, neste usamos o MySQL. Rodamos nossa aplicação com um servidor apache, mas qualquer outro daemon http, em tese, funcionaria.
 
-### Entrega
+A topologia é vista hoje da seguinte maneira:
 
-O ato da entrega consiste em realizar um único pull request, que será processado automaticamente. Para realizar essa ação é necessário clicar no botão **New pull request** no repositório que contém o fork do projeto:
+Usuário -> Internet -> Servidor Web (Rodando PHP e MySQL) -> Internet -> Usuário
 
-![pullrequest](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest.png)
+Dessa forma entende-se que a relação plataforma <--> usuário é de maneira simples e direta, pelo menos no estágio onde o sistema se encontra.
 
-Será necessaria a confirmação através do botão **Create pull request**:
+Versões:
+PHP >= 5.6.37
+MySQL >= 5.0.12
+Apache >= 2.4.34
 
-![pullrequest2](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest2.png)
+Referências externas:
+Google fonts -> Comfortaa (https://fonts.google.com/specimen/Comfortaa)
 
-Para o processamento correto do pull request, o título deve seguir **obrigatoriamente** o padrão:
+Popper.js = 1.12.9 (via CDN)
 
-> XX - Solução
+JQuery >= 3.2.1 (via CDN)
 
-Onde XX é o número da equipe. A descrição é opcional:
+FontAwesome = 4.7.0 (via CDN)
 
-![pullrequest3](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest3.png)
+Bootstrap >= 4.0.0 (via CDN)
 
-***As entregas serão aceitas até 11:00 do dia 26 de agosto. após esse horário, não serão mais processadas.***
+API Google OAuth
 
-Mais Informações sobre fork e pull request podem ser acessadas em https://guides.github.com/activities/forking/.
+Todas as imagens foram retiradas dos seguintes bancos de imagens:
 
-### Documentação
+br.freepik.com 
+unsplash.com (https://unsplash.com/license)
 
-O arquivo README.MD deve ser **obrigatoriamente** substituído de forma a conter uma breve descrição da solução, assim como a especificação completa do ambiente que o projeto foi construído, incluindo sistema operacional, linguagens, frameworks, APIs, bibliotecas e quaisquer outras dependências, assim como as respectivas versões utilizadas.
-
-Qualquer dúvida sobre as operações descritas aqui podem ser encaminhadas ao canal [Hacknit](https://t.me/joinchat/BYx24Q0lDtHBc7P7gnfEOA) no Telegram.
+Não foram feitos estudos sobre utilização das imagens em fase de produção sendo esse projeto pensado apenas para um público restrito e sem valor comercial.
 
 

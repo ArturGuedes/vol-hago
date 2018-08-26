@@ -1,0 +1,81 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-image: url(../imgs/bg-blur-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card {
+    font-family: Comfortaa, Arial, sans-serif;
+    text-align: center;
+    width: 400px;
+    height: 520px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 14.6px 1.4px rgba(0, 0, 0, 0.41);
+    background-color: #f9f9f9;
+    border: solid 1px #ffffff;
+
+    margin: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+input[type=text],
+input[type=password] {
+    border: 1px solid silver;
+    font-size: 12pt;
+}
+
+.btnn {
+    /* background: #008cb2; */
+    background: rgba(0, 0, 0, .50);
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, .0);
+    box-sizing: border-box;
+    display: block;
+    font-family: Comfortaa, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    /* background: #008cb2; */
+    background: rgba(0, 150, 200, .9);
+    border: 2px solid rgba(255, 255, 255, .0);
+    color: white;
+    text-decoration: none;
+}
+
+
+.icone_perfil
+{
+    width: 150px;
+    height: 150px;
+    position: center;
+    margin-top: 75px;
+}
+
+
+input{
+    font-size: 10px;
+}
