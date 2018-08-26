@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-image: url(../imgs/bg-blur-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card {
+    font-family: Comfortaa, Arial, sans-serif;
+    text-align: center;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 14.6px 1.4px rgba(0, 0, 0, 0.41);
+    background-color: #f9f9f9;
+    border: solid 1px #ffffff;
+
+    margin: 50px auto;
+
+    position: relative;
+    /*             top: 50%;
+            transform: translateY(-50%);
+            */
+}
+
+input[type=text],
+input[type=password],
+input[type=login],
+select {
+    border: 1px solid silver;
+    font-size: 10pt;
+}
+
+span {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.btn-primary {
+    /* background: #008cb2; */
+    background: rgba(0, 0, 0, .50);
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, .0);
+    box-sizing: border-box;
+    display: block;
+    font-family: Comfortaa, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    /* background: #008cb2; */
+    background: rgba(0, 150, 200, .9);
+    border: 2px solid rgba(255, 255, 255, .0);
+    color: white;
+    text-decoration: none;
+}
+
+.radios {
+    position: center;
+    border: solid 1px;
+    border-color: transparent;
+    margin-top: 10px;
+
+}
+
+
+.custom-select {
+    margin-top: 10px;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.espaco {
+    margin-top: 85px;
+}
+
+.cadastre {
+    margin-top: -60px;
+    width: 400px;
+    height: 50px;
+
+}
+
+.ab {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: left;
+    font-weight: bold;
+}
