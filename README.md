@@ -1,52 +1,134 @@
-# Hago
+<h1 align="center">
+  <br>
+    <img src="pitch/assets/logo-home.png" alt="logo" width="200">
+  <br>
+  <br>
+    Hago
+  <br>
+  <br>
+</h1>
 
-### Apresentação:
+<h4 align="center">Projeto vencedor do HackNit 2018 🥇</h4>
 
-Hago significa Humano em Ação, é um acrônimo das palavras Homa e Ago, provenientes do Esperanto. E identifica aqueles humanos que nunca desistem de fazer deste mundo um lugar melhor!
+Hago (Humano em Ação) é um acrônimo derivado das palavras em esperanto "Homa" e "Ago", representando indivíduos que nunca desistem de fazer deste mundo um lugar melhor!
 
-Super Hago é aquele que se destaca, é o Hago herói, que além de melhorar a si mesmo, melhora outros Hagos e o mundo por onde passa. Não basta ser Hago, temos que ser Super Hago!
+A plataforma foi desenvolvida para atender a necessidade de reconhecimento e engajamento de voluntários, criando valor para voluntários e estabelecendo conexões significativas com o trabalho voluntário.
 
-A ideia da nossa plataforma veio da necessidade de valorizar o voluntário, de  forma a agregar valor a ele e poder criar um vínculo do mesmo com o trabalho voluntário.
+[![Watch the video on Vimeo](https://github.com/user-attachments/assets/8a28e581-e7f2-46a7-9b7b-635fc0a119ee)](https://vimeo.com/299203964)
 
-A Hago age não só como integrador entre o voluntário e as ações que precisam de voluntários, mas também como um hub de beneficios para os voluntários.
+## Missão
 
-A ideia é que exista uma gamificação, onde os usuários terão pontos que serão conquistados ao executar uma ação e ao término da mesma, ele terá de classificar 3 outros colegas para que as notas que ele recebeu sejam contabilizadas. Com isso podemos ter uma valorização justa do voluntário que se destaca.
+A Hago atua tanto como conectora entre voluntários e organizações que necessitam de apoio, quanto como um hub abrangente de benefícios para voluntários. Nosso objetivo é tornar o trabalho voluntário benéfico não apenas para a alma, mas também para o desenvolvimento pessoal e profissional.
 
-No clube de benefícios, podemos pensar em propostas como descontos em marcas parceiras, cinemas, restaurantes e etc... Mas também precisamos evoluir com esse voluntário e podemos fazer isso através de cursos online e presenciais promovidos de forma também voluntária por empresas e profissionais parceiros, entregando conteúdo e certificação aos participantes.
+### Seja Super Hago
 
-Nós queremos que o trabalho voluntário seja não só bom para a alma, mas também para a vida.
+Super Hago representa o voluntário de destaque - o herói da comunidade que, além de seu próprio desenvolvimento, inspira e desenvolve outros voluntários, criando impacto positivo em cada ambiente que atua. Nosso objetivo é que cada voluntário evolua para se tornar um Super Hago.
 
-Queremos que os voluntários sejam mais do que apenas voluntários, sejam super-hagos!
+## Funcionalidades
 
-### Ambiente:
-A aplicação foi toda desenvolvida para web. Sendo suportadas em ambientes linux e windows.
+### Sistema de Gamificação
 
-#### Linguagens e frameworks e bibliotecas:
-Utilizamos PHP, HTML5 + CSS3, JQuery e Javascript nativo para a construção das páginas e consultas ao banco de dados SQL, neste usamos o MySQL. Rodamos nossa aplicação com um servidor apache, mas qualquer outro daemon http, em tese, funcionaria.
+- Sistema de recompensas baseado em pontos para atividades voluntárias concluídas
+- Sistema de avaliação por pares exigindo avaliação de 3 colegas após conclusão da tarefa
+- Mecanismo de reconhecimento justo para voluntários excepcionais
 
-A topologia é vista hoje da seguinte maneira:
+### Clube de Benefícios
 
-Usuário -> Internet -> Servidor Web (Rodando PHP e MySQL) -> Internet -> Usuário
+- Descontos com marcas parceiras, cinemas, restaurantes e outros estabelecimentos
+- Oportunidades de desenvolvimento profissional através de cursos online e presenciais
+- Programas de certificação oferecidos por empresas e profissionais parceiros voluntários
 
-Dessa forma entende-se que a relação plataforma <--> usuário é de maneira simples e direta, pelo menos no estágio onde o sistema se encontra.
+## Tecnologias
 
-#### Versões:
-- PHP >= 5.6.37
-- MySQL >= 5.0.12
-- Apache >= 2.4.34
+### Ambiente
 
-#### Referências externas:
-- Google fonts -> Comfortaa (https://fonts.google.com/specimen/Comfortaa)
-- Popper.js = 1.12.9 (via CDN)
-- JQuery >= 3.2.1 (via CDN)
-- FontAwesome = 4.7.0 (via CDN)
-- Bootstrap >= 4.0.0 (via CDN)
+Aplicação baseada na web com suporte a ambientes Linux e Windows.
+
+### Stack Tecnológico
+
+- **Backend**: PHP (>= 5.6.37)
+- **Banco de Dados**: MySQL (>= 5.0.12)
+- **Servidor Web**: Apache (>= 2.4.34)
+- **Frontend**: HTML5, CSS3, jQuery, JavaScript
+- **Arquitetura**: Modelo cliente-servidor simples via HTTP
+
+### Dependências Externas
+
+- Google Fonts - Comfortaa
+- Popper.js v1.12.9 (CDN)
+- jQuery >= 3.2.1 (CDN)
+- FontAwesome v4.7.0 (CDN)
+- Bootstrap >= 4.0.0 (CDN)
 - API Google OAuth
 
-#### Todas as imagens foram retiradas dos seguintes bancos de imagens:
-- br.freepik.com 
-- unsplash.com (https://unsplash.com/license)
+## Equipe
 
-Não foram feitos estudos sobre utilização das imagens em fase de produção sendo esse projeto pensado apenas para um público restrito e sem valor comercial.
+<div align="center">
+<img src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/equipehagovencedorahacknitfotobrunoeduardoalves_rdh4MaD.jpg" alt="Equipe Hago" width="480">
+<p>
+<a href="#">Lucas Gomes</a>,
+<a href="https://github.com/arturguedes">Artur Guedes</a>,
+<a href="https://github.com/ogrodev">Pedro Mendes</a>,
+<a href="https://github.com/crisnazario">Cristina Nazário</a> e
+<a href="https://github.com/wecjunior">Wendel Correia</a>
+</p>
+</div>
 
+## HackNit
 
+O HackNit é uma maratona tecnológica que reúne profissionais multidisciplinares para desenvolvimento de soluções inovadoras destinadas aos desafios urbanos da cidade de Niterói.
+
+### Edição 2018
+
+A primeira edição reuniu **120 participantes** em uma maratona de **36 horas ininterruptas**, realizada de 24 a 26 de agosto de 2018, focando no desenvolvimento de tecnologias para otimização das seguintes áreas:
+
+- Segurança pública
+- Meio ambiente e conservação
+- Saúde
+- Educação
+- Mobilidade urbana
+
+### Sistema de Premiação
+
+Os projetos foram avaliados por especialistas em tecnologia, inovação e empreendedorismo, considerando viabilidade técnica e alinhamento com políticas públicas municipais:
+
+- **1º lugar**: R$ 20.000 🥇
+- **2º lugar**: R$ 10.000 🥈
+- **3º lugar**: R$ 5.000 🥉
+
+## Mídia e Reconhecimento
+
+### Imprensa
+
+- **Agência de Notícias da Indústria** - [Com plataforma de voluntariado, estudantes foram classificados para fase de aceleração do HackBrazil, com mentoria de alunos do MIT/ Harvard](https://noticias.portaldaindustria.com.br/noticias/educacao/alunos-do-senai-do-rio-sao-campeoes-do-hacknit-maratona-de-criacao-de-solucoes-para-desafios-de-niteroi/)
+- **Cidade de Niterói** - [Plataforma que incentiva ações de voluntariado leva prêmio do HackNit](https://cidadedeniteroi.com/negocios/tecnologia/plataforma-que-incentiva-acoes-de-voluntariado-leva-premio-do-hacknit/)
+- **O Globo** - [Plataformas foram premiadas na maratona tecnológica Hacknit](https://web.archive.org/web/20180906164013/https://oglobo.globo.com/rio/bairros/aplicativos-permitem-pais-acompanharem-desempenho-escolar-dos-filhos-23029448)
+- **O Fluminense** - [O incentivo ao voluntariado foi o grande vencedor do HackNit](https://www.ofluminense.com.br/pt-br/cidades/plataforma-que-incentiva-a%25C3%25A7%25C3%25B5es-de-voluntariado-leva-pr%25C3%25AAmio-do-hacknit.html)
+
+### Reconhecimento Institucional
+
+- **Prefeitura de Niterói** - [E depois de 36h de maratona foi definida a equipe vencedora do primeiro #HackNit da Prefs: HAGO!](https://www.facebook.com/PrefeituraMunicipaldeNiteroi/posts/1797212610393414/)
+- **Seplag Niterói** - [Plataforma que incentiva ações de voluntariado leva prêmio do HackNit](https://seplag.niteroi.rj.gov.br/plataforma-que-incentiva-acoes-de-voluntariado-leva-premio-do-hacknit/)
+- **Unilasalle-RJ** - [1º Lugar no HackNit](https://www.unilasalle.edu.br/rj/noticias/1-lugar-no-hacknit)
+- **Viva Rio** - [Voluntariado: A alma do Viva Rio](https://vivario.org.br/voluntariado-a-alma-do-viva-rio/)
+
+### Cobertura Adicional
+
+- **Blog do Axel Grael** - [Plataforma que incentiva ações de voluntariado leva prêmio do HackNit](https://axelgrael.blogspot.com/2018/08/plataforma-que-incentiva-acoes-de.html)
+
+## Créditos
+
+### Assets Visuais
+
+**Imagens**: Obtidas de repositórios licenciados
+
+- [Freepik](https://br.freepik.com)
+- [Unsplash](https://unsplash.com/license)
+
+### Mídia
+
+**Vídeo original**: [HackNit 2018](https://vimeo.com/299203964) - Lucas Turmena
+
+### Nota Legal
+
+_Estudos de licenciamento de imagens não foram conduzidos, pois este projeto foi projetado para uso restrito e não comercial._
