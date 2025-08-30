@@ -14,7 +14,13 @@ Hago (Humano em Ação) é um acrônimo derivado das palavras em esperanto "Homa
 
 A plataforma foi desenvolvida para atender a necessidade de reconhecimento e engajamento de voluntários, criando valor para voluntários e estabelecendo conexões significativas com o trabalho voluntário.
 
-https://github.com/user-attachments/assets/91f0f77e-1ff4-404e-b22a-cbdf59360ae4
+
+
+
+https://github.com/user-attachments/assets/36a92529-6d6a-452c-93fb-b44f405ac87f
+
+
+
 
 ## Missão
 
